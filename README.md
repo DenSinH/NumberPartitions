@@ -18,3 +18,5 @@ Besides normal partitions, you can also define flat or solid partitions. This is
 | 1 | 1 |   |
 
 (I don't know how to make proper tables, leave me be.) Is an example of a flat partition of 9. In this case, the numbers must always be non-increasing whenever you go right or down. the script flatPartitions.py calculates the amount of these exist for any given number. For this I used the normal partitions, so instead of just counting them (which is what I did before), I had to actually find the representations. Solid partitions are defined in a similar manner, but then in 3D. I basically used the same approach for these as I did for the flat partitions. You can expand this idea to 4, 5 or n dimensions, and the script I wrote can easily be expanded as well. (If I remember correctly, you would only have to add another loop, I never got around to generalizing it).
+
+I wrote this script for a professor who does not have much coding experience, so it may be a bit overcommented.
